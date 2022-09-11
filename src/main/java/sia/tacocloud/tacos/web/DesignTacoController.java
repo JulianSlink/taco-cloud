@@ -7,6 +7,8 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 import sia.tacocloud.tacos.Ingredient;
 import sia.tacocloud.tacos.Ingredient.Type;
+import sia.tacocloud.tacos.Order;
+import sia.tacocloud.tacos.Taco;
 import sia.tacocloud.tacos.data.IngredientRepository;
 import sia.tacocloud.tacos.data.TacoRepository;
 
