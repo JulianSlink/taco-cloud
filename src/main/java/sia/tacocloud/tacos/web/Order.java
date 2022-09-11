@@ -6,9 +6,16 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Pattern;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 @Data
 public class Order {
+    private Long id;
+
+    private Date placedAt;
+
     @NotBlank(message = "Name is required")
     private String name;
 
@@ -33,4 +40,13 @@ public class Order {
 
     @Digits(integer = 3, fraction = 0, message = "invalid CVV")
     private String ccCVV;
+
+    List<Taco> tacos = new ArrayList<>();
+
+    /**
+     * @param saved
+     */
+    public void addDesign(Taco saved) {
+    }
+
 }
