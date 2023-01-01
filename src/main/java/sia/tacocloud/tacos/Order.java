@@ -50,6 +50,9 @@ public class Order {
     @ManyToMany(targetEntity = Taco.class)
     List<Taco> tacos = new ArrayList<>();
 
+    @ManyToOne
+    private User user;
+
     /**
      * @param saved
      */
