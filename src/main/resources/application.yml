@@ -1,0 +1,10 @@
+server:
+  port: 9090
+
+logging:
+  level:
+    tacos: warn
+
+taco:
+  orders:
+    pageSize: 10
