@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    template:
+      default-topic: tacocloud.orders.topic
+    bootstrap-servers:
+      - localhost:9092

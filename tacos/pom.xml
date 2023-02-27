@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>taco-cloud</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>taco-cloud</name>
     <description>Taco Cloud Example</description>

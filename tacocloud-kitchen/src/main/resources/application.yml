@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+---
+spring:
+  profiles: rabbitmq-listener
+  rabbitmq:
+    template:
+      receive-timeout: 30000
