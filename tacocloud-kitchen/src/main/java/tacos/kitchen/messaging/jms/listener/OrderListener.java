@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 import tacos.Order;
-import tacos.kitchen.messaging.KitchenUI;
+import tacos.kitchen.KitchenUI;
 
 @Profile("jms-listener")
 @Component

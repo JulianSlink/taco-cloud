@@ -10,7 +10,7 @@ import org.springframework.messaging.Message;
 import org.springframework.messaging.MessageHeaders;
 import org.springframework.stereotype.Component;
 import tacos.Order;
-import tacos.kitchen.messaging.KitchenUI;
+import tacos.kitchen.KitchenUI;
 
 
 @Profile("kafka-listener")
