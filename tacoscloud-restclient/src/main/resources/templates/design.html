@@ -4,7 +4,7 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout.html}">
 <head>
-    <title>Taco Cloud</title>
+    <title>tacos.email.Taco Cloud</title>
     <script th:src="@{/scripts/ingredients.js}"></script>
 </head>
 
@@ -22,7 +22,7 @@
 
       <span class="validationError"
             th:if="${#fields.hasErrors('ingredients')}"
-            th:errors="*{ingredients}">Ingredient Error</span>
+            th:errors="*{ingredients}">tacos.email.Ingredient Error</span>
 
         <div class="grid">
             <div class="ingredient-group">

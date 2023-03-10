@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>tacocloud-security</name>
-    <description>Taco Cloud Security</description>
+    <description>tacos.email.Taco Cloud Security</description>
 
     <parent>
         <groupId>sia</groupId>

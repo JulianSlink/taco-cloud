@@ -4,13 +4,13 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout.html}">
 <head>
-    <title>Taco Cloud</title>
+    <title>tacos.email.Taco Cloud</title>
 </head>
 
 <body>
 <section layout:fragment="main" class="content">
     <form method="POST" th:action="@{/orders}" th:object="${order}" id="orderForm">
-        <h1>Order your taco creations!</h1>
+        <h1>tacos.email.Order your taco creations!</h1>
 
         <h3>Your tacos in this order:</h3>
         <a th:href="@{/design}" id="another">Design another taco</a><br/>

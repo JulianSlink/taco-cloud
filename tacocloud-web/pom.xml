@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>tacocloud-web</name>
-    <description>Taco Cloud Web</description>
+    <description>tacos.email.Taco Cloud Web</description>
 
     <parent>
         <groupId>sia</groupId>

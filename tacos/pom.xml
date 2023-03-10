@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <name>taco-cloud</name>
-    <description>Taco Cloud Example</description>
+    <description>tacos.email.Taco Cloud Example</description>
 
     <parent>
         <groupId>sia</groupId>

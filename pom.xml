@@ -32,6 +32,9 @@
         <module>tacocloud-kitchen</module>
         <module>tacocloud-messaging-rabbitmq</module>
         <module>tacocloud-messaging-kafka</module>
+        <module>simple-flow</module>
+        <module>simple-flow</module>
+        <module>tacocloud-email</module>
     </modules>
 
 </project>

@@ -14,7 +14,7 @@
   </parent>
 
   <name>tacocloud-ui</name>
-  <description>Taco Cloud UI</description>
+  <description>tacos.email.Taco Cloud UI</description>
 
   <properties>
     <node.version>v6.9.1</node.version>
